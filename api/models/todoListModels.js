@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const TodoSchema = new Schema({
   name: {
     type: String,
-    Required: 'Todo needs a name',
+    required: 'Todo needs a name',
   },
   Created_at: {
     type: Date,
