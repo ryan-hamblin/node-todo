@@ -13,6 +13,8 @@ const corsOptions = {
   "optionsSuccessStatus": 204
 };
 
+console.log("trivial change");
+
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/Tododb', { useMongoClient: true });
 
